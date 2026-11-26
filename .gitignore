@@ -1,0 +1,58 @@
+# ============================================================
+# Unity 标准忽略清单
+#   项目：01-oracle-bone（甲骨文三朝解谜游戏）
+#   作品集仓库：D:\game-portfolio\01-oracle-bone
+# ============================================================
+
+# ---------- Unity 生成目录（可重建，绝不入库）----------
+Library/
+Temp/
+obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+MemoryCaptures/
+Recordings/
+
+# ---------- Unity 自动生成的项目/工程文件 ----------
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ---------- IDE / 编辑器 ----------
+.vs/
+.vscode/
+.idea/
+
+# ---------- OS 杂项 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- 打包产物 / 安装包（体积大，不入库）----------
+*.apk
+*.aab
+*.app
+*.unitypackage
+
+# ---------- AI 工具缓存目录 ----------
+.codely-cli/
+.codex/
+.claude/
+.cursor/
+
+# ---------- 日志与崩溃 ----------
+*.log
+crashlytics-build.properties
+sysinfo.txt
